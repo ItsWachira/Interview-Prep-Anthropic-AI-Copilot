@@ -1,0 +1,25 @@
+:root {
+  --background: #ffffff;
+  
+}
+
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.mantine-Button-root {
+  transition: all 0.2s ease;
+}
+
+.mantine-Button-root:hover {
+  transform: translateY(-2px);
+}
+
+.mantine-Paper-root {
+  transition: all 0.3s ease;
+}
+
+.mantine-Paper-root:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
